@@ -135,7 +135,8 @@ main
 .name-container-h2
 {
     font-size: 2.5rem;
-    color: #e73231;
+    color: #212567;
+    font-weight: lighter;
 }
 .work-container
 {
@@ -147,7 +148,8 @@ main
 {
     padding-top: 10px;
     font-size: 1.3rem;
-    color:#6c757d ;
+    color:#212567 ;
+    font-weight: lighter;
 }
 .ul-me-description-container
 {
@@ -163,11 +165,99 @@ main
 .ul-me-description-container li b
 {
     font-size: 1.4rem;
-    color:#6c757d ;
+    color:#212567 ;
 }
 .ul-me-description-container li ::marker
 {
     
     
     color: #6c757d;
+}
+.button-container-CV
+{   
+
+    padding: 10px 30px;
+    font-size: 1rem;
+    margin: 20px auto ;
+    color: #e73231;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #e73231;
+    text-align: center;
+    
+}
+
+.skills-div-container
+{
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 80%;
+}
+.skills-div-container h3
+{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.skills-div-container .subtitle-container
+{
+    padding: 15px 0 10px 0;
+    font-size: 1.6rem;
+}
+
+.color-div
+{
+    width: auto;
+    padding-bottom: 10px;
+
+}
+
+.tittle-java-container
+{
+    font-size: 1.2rem;
+}
+
+.border-line-graph
+{
+    position: relative;
+    align-items: center;
+    border-radius: 12.5px;
+    height: 25px;
+    border: 2px solid #ef3724;
+    
+}
+.graph-percent
+{
+    position: absolute;
+    border-radius: 8px;
+    top: 2px;
+    left: 2px;
+    height: 17px;
+    
+    background-color: #ef3724;
+   
+    text-align: center;
+}
+.number-graph
+{
+    
+    padding-top: 2px;
+    font-size: 0.8rem;
+    color: #ffffff;
+}
+/* name__%%%%%_____________________________ */
+.graph-percent-php
+{
+    width: 80%;
+}
+.graph-percent-js
+{
+    width:86%;
+}
+.graph-percent-html-css
+{
+    width: 98.5%;
+}
+.graph-percent-phyton
+{
+    width: 90%;
 }
