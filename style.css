@@ -27,7 +27,7 @@ header
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(144, 143, 142, 0.452);
+    background-color: rgba(22, 21, 21, 0.452);
     z-index: 0;
 }
 .nav_container
@@ -35,7 +35,7 @@ header
     position: absolute;
     width: 100%;
     height: 70px;
-    background-color: #61535e7a;
+    background-color: #5356617a;
     top: 25px; 
 }
 .precentacion-dev-container
@@ -46,8 +46,9 @@ header
     margin: 0 auto;
     height: 700px;
     width: 80%;
+    animation:slide-in-elliptic-bottom-fwd 1s cubic-bezier(.25,.46,.45,.94) both
 }
-
+    @keyframes slide-in-elliptic-bottom-fwd{0%{transform:translateY(600px) rotateX(30deg) scale(0);transform-origin:50% 100%;opacity:0}100%{transform:translateY(0) rotateX(0) scale(1);transform-origin:50% -1400px;opacity:1}}
 .h1-container-header
 {
     text-align: center;
@@ -68,7 +69,7 @@ header
     font-size: 1.5rem;
     width: 100px;
     margin: 0 auto;
-    z-index: 1;
+    z-index: 1;   
 }
 .buttom-header-div-container
 {
@@ -127,10 +128,11 @@ main
 }
 .div-text-container
 {
+
     padding-top: 15px;
     height: auto;
-    margin: 0 auto;
-    width: 270px;
+    margin: 0 auto; 
+    width: 80%;
 }
 .name-container-h2
 {
